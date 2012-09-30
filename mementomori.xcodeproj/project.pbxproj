@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		403B293A161836B600534827 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B2939161836B600534827 /* UIKit.framework */; };
+		403B293C161836B600534827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B293B161836B600534827 /* Foundation.framework */; };
+		403B293E161836B600534827 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B293D161836B600534827 /* CoreGraphics.framework */; };
+		403B2944161836B600534827 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 403B2942161836B600534827 /* InfoPlist.strings */; };
+		403B2946161836B600534827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B2945161836B600534827 /* main.m */; };
+		403B294A161836B600534827 /* IGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B2949161836B600534827 /* IGAppDelegate.m */; };
+		403B294D161836B600534827 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403B294B161836B600534827 /* MainStoryboard.storyboard */; };
+		403B2950161836B600534827 /* IGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B294F161836B600534827 /* IGViewController.m */; };
+		403B2958161836B600534827 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B2957161836B600534827 /* SenTestingKit.framework */; };
+		403B2959161836B600534827 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B2939161836B600534827 /* UIKit.framework */; };
+		403B295A161836B600534827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B293B161836B600534827 /* Foundation.framework */; };
+		403B2962161836B600534827 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 403B2960161836B600534827 /* InfoPlist.strings */; };
+		403B2965161836B600534827 /* mementomoriTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B2964161836B600534827 /* mementomoriTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		403B295B161836B600534827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403B292C161836B600534827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403B2934161836B600534827;
+			remoteInfo = mementomori;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		403B2935161836B600534827 /* mementomori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mementomori.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		403B2939161836B600534827 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		403B293B161836B600534827 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		403B293D161836B600534827 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		403B2941161836B600534827 /* mementomori-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mementomori-Info.plist"; sourceTree = "<group>"; };
+		403B2943161836B600534827 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		403B2945161836B600534827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		403B2947161836B600534827 /* mementomori-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mementomori-Prefix.pch"; sourceTree = "<group>"; };
+		403B2948161836B600534827 /* IGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGAppDelegate.h; sourceTree = "<group>"; };
+		403B2949161836B600534827 /* IGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGAppDelegate.m; sourceTree = "<group>"; };
+		403B294C161836B600534827 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		403B294E161836B600534827 /* IGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGViewController.h; sourceTree = "<group>"; };
+		403B294F161836B600534827 /* IGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGViewController.m; sourceTree = "<group>"; };
+		403B2956161836B600534827 /* mementomoriTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mementomoriTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		403B2957161836B600534827 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		403B295F161836B600534827 /* mementomoriTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mementomoriTests-Info.plist"; sourceTree = "<group>"; };
+		403B2961161836B600534827 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		403B2963161836B600534827 /* mementomoriTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mementomoriTests.h; sourceTree = "<group>"; };
+		403B2964161836B600534827 /* mementomoriTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mementomoriTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403B2932161836B600534827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B293A161836B600534827 /* UIKit.framework in Frameworks */,
+				403B293C161836B600534827 /* Foundation.framework in Frameworks */,
+				403B293E161836B600534827 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403B2952161836B600534827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B2958161836B600534827 /* SenTestingKit.framework in Frameworks */,
+				403B2959161836B600534827 /* UIKit.framework in Frameworks */,
+				403B295A161836B600534827 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		403B292A161836B600534827 = {
+			isa = PBXGroup;
+			children = (
+				403B293F161836B600534827 /* mementomori */,
+				403B295D161836B600534827 /* mementomoriTests */,
+				403B2938161836B600534827 /* Frameworks */,
+				403B2936161836B600534827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		403B2936161836B600534827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403B2935161836B600534827 /* mementomori.app */,
+				403B2956161836B600534827 /* mementomoriTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		403B2938161836B600534827 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				403B2939161836B600534827 /* UIKit.framework */,
+				403B293B161836B600534827 /* Foundation.framework */,
+				403B293D161836B600534827 /* CoreGraphics.framework */,
+				403B2957161836B600534827 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		403B293F161836B600534827 /* mementomori */ = {
+			isa = PBXGroup;
+			children = (
+				403B2948161836B600534827 /* IGAppDelegate.h */,
+				403B2949161836B600534827 /* IGAppDelegate.m */,
+				403B294B161836B600534827 /* MainStoryboard.storyboard */,
+				403B294E161836B600534827 /* IGViewController.h */,
+				403B294F161836B600534827 /* IGViewController.m */,
+				403B2940161836B600534827 /* Supporting Files */,
+			);
+			path = mementomori;
+			sourceTree = "<group>";
+		};
+		403B2940161836B600534827 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				403B2941161836B600534827 /* mementomori-Info.plist */,
+				403B2942161836B600534827 /* InfoPlist.strings */,
+				403B2945161836B600534827 /* main.m */,
+				403B2947161836B600534827 /* mementomori-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		403B295D161836B600534827 /* mementomoriTests */ = {
+			isa = PBXGroup;
+			children = (
+				403B2963161836B600534827 /* mementomoriTests.h */,
+				403B2964161836B600534827 /* mementomoriTests.m */,
+				403B295E161836B600534827 /* Supporting Files */,
+			);
+			path = mementomoriTests;
+			sourceTree = "<group>";
+		};
+		403B295E161836B600534827 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				403B295F161836B600534827 /* mementomoriTests-Info.plist */,
+				403B2960161836B600534827 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		403B2934161836B600534827 /* mementomori */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403B2968161836B600534827 /* Build configuration list for PBXNativeTarget "mementomori" */;
+			buildPhases = (
+				403B2931161836B600534827 /* Sources */,
+				403B2932161836B600534827 /* Frameworks */,
+				403B2933161836B600534827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mementomori;
+			productName = mementomori;
+			productReference = 403B2935161836B600534827 /* mementomori.app */;
+			productType = "com.apple.product-type.application";
+		};
+		403B2955161836B600534827 /* mementomoriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403B296B161836B600534827 /* Build configuration list for PBXNativeTarget "mementomoriTests" */;
+			buildPhases = (
+				403B2951161836B600534827 /* Sources */,
+				403B2952161836B600534827 /* Frameworks */,
+				403B2953161836B600534827 /* Resources */,
+				403B2954161836B600534827 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				403B295C161836B600534827 /* PBXTargetDependency */,
+			);
+			name = mementomoriTests;
+			productName = mementomoriTests;
+			productReference = 403B2956161836B600534827 /* mementomoriTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		403B292C161836B600534827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IG;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = XP.Guild;
+			};
+			buildConfigurationList = 403B292F161836B600534827 /* Build configuration list for PBXProject "mementomori" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 403B292A161836B600534827;
+			productRefGroup = 403B2936161836B600534827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403B2934161836B600534827 /* mementomori */,
+				403B2955161836B600534827 /* mementomoriTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		403B2933161836B600534827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B2944161836B600534827 /* InfoPlist.strings in Resources */,
+				403B294D161836B600534827 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403B2953161836B600534827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B2962161836B600534827 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		403B2954161836B600534827 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403B2931161836B600534827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B2946161836B600534827 /* main.m in Sources */,
+				403B294A161836B600534827 /* IGAppDelegate.m in Sources */,
+				403B2950161836B600534827 /* IGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403B2951161836B600534827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B2965161836B600534827 /* mementomoriTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		403B295C161836B600534827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 403B2934161836B600534827 /* mementomori */;
+			targetProxy = 403B295B161836B600534827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		403B2942161836B600534827 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403B2943161836B600534827 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		403B294B161836B600534827 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403B294C161836B600534827 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		403B2960161836B600534827 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403B2961161836B600534827 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		403B2966161836B600534827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		403B2967161836B600534827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		403B2969161836B600534827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mementomori/mementomori-Prefix.pch";
+				INFOPLIST_FILE = "mementomori/mementomori-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		403B296A161836B600534827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mementomori/mementomori-Prefix.pch";
+				INFOPLIST_FILE = "mementomori/mementomori-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		403B296C161836B600534827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mementomori.app/mementomori";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mementomori/mementomori-Prefix.pch";
+				INFOPLIST_FILE = "mementomoriTests/mementomoriTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		403B296D161836B600534827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mementomori.app/mementomori";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mementomori/mementomori-Prefix.pch";
+				INFOPLIST_FILE = "mementomoriTests/mementomoriTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403B292F161836B600534827 /* Build configuration list for PBXProject "mementomori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403B2966161836B600534827 /* Debug */,
+				403B2967161836B600534827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403B2968161836B600534827 /* Build configuration list for PBXNativeTarget "mementomori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403B2969161836B600534827 /* Debug */,
+				403B296A161836B600534827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		403B296B161836B600534827 /* Build configuration list for PBXNativeTarget "mementomoriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403B296C161836B600534827 /* Debug */,
+				403B296D161836B600534827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 403B292C161836B600534827 /* Project object */;
+}
