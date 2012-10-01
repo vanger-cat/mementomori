@@ -19,7 +19,11 @@
 		403B2959161836B600534827 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B2939161836B600534827 /* UIKit.framework */; };
 		403B295A161836B600534827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B293B161836B600534827 /* Foundation.framework */; };
 		403B2962161836B600534827 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 403B2960161836B600534827 /* InfoPlist.strings */; };
-		403B2965161836B600534827 /* mementomoriTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B2964161836B600534827 /* mementomoriTests.m */; };
+		403B2965161836B600534827 /* mementomoriTests.m in Sources */ = {isa = PBXBuildFile; };
+		403B297016183C7600534827 /* IGMainScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B296F16183C7600534827 /* IGMainScreenController.m */; };
+		403B297016183C760053482A /* NSDateBirthdayAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B297016183C7600534829 /* NSDateBirthdayAdditionsTest.m */; };
+		403B297016183C760053482D /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B297016183C760053482C /* NSDate+Additions.m */; };
+		403B297016183C760053482E /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B297016183C760053482C /* NSDate+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +54,12 @@
 		403B2957161836B600534827 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		403B295F161836B600534827 /* mementomoriTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mementomoriTests-Info.plist"; sourceTree = "<group>"; };
 		403B2961161836B600534827 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		403B2963161836B600534827 /* mementomoriTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mementomoriTests.h; sourceTree = "<group>"; };
-		403B2964161836B600534827 /* mementomoriTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mementomoriTests.m; sourceTree = "<group>"; };
+		403B296E16183C7600534827 /* IGMainScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGMainScreenController.h; sourceTree = "<group>"; };
+		403B296F16183C7600534827 /* IGMainScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGMainScreenController.m; sourceTree = "<group>"; };
+		403B297016183C7600534828 /* NSDateBirthdayAdditionsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateBirthdayAdditionsTest.h; sourceTree = "<group>"; };
+		403B297016183C7600534829 /* NSDateBirthdayAdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateBirthdayAdditionsTest.m; sourceTree = "<group>"; };
+		403B297016183C760053482C /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Additions.m"; sourceTree = "<group>"; };
+		403B297016183C760053482F /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +124,10 @@
 				403B294B161836B600534827 /* MainStoryboard.storyboard */,
 				403B294E161836B600534827 /* IGViewController.h */,
 				403B294F161836B600534827 /* IGViewController.m */,
+				403B296E16183C7600534827 /* IGMainScreenController.h */,
+				403B296F16183C7600534827 /* IGMainScreenController.m */,
 				403B2940161836B600534827 /* Supporting Files */,
+				403B297016183C760053482B /* Utils */,
 			);
 			path = mementomori;
 			sourceTree = "<group>";
@@ -135,8 +146,8 @@
 		403B295D161836B600534827 /* mementomoriTests */ = {
 			isa = PBXGroup;
 			children = (
-				403B2963161836B600534827 /* mementomoriTests.h */,
-				403B2964161836B600534827 /* mementomoriTests.m */,
+				403B297016183C7600534829 /* NSDateBirthdayAdditionsTest.m */,
+				403B297016183C7600534828 /* NSDateBirthdayAdditionsTest.h */,
 				403B295E161836B600534827 /* Supporting Files */,
 			);
 			path = mementomoriTests;
@@ -149,6 +160,15 @@
 				403B2960161836B600534827 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		403B297016183C760053482B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				403B297016183C760053482F /* NSDate+Additions.h */,
+				403B297016183C760053482C /* NSDate+Additions.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +282,8 @@
 				403B2946161836B600534827 /* main.m in Sources */,
 				403B294A161836B600534827 /* IGAppDelegate.m in Sources */,
 				403B2950161836B600534827 /* IGViewController.m in Sources */,
+				403B297016183C7600534827 /* IGMainScreenController.m in Sources */,
+				403B297016183C760053482D /* NSDate+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				403B2965161836B600534827 /* mementomoriTests.m in Sources */,
+				403B297016183C760053482A /* NSDateBirthdayAdditionsTest.m in Sources */,
+				403B297016183C760053482E /* NSDate+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
