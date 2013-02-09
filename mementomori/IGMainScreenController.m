@@ -8,11 +8,12 @@
 
 #import "IGMainScreenController.h"
 #import "IGViewController.h"
-#import "NSDate+Additions.h"
+
+#import "NSDate+MTDates.h"
+#import "IGCircleView.h"
 
 @interface IGMainScreenController ()
-- (void)showTimeLeftFrom:(NSDate *)fromDate toDate:(NSDate *)toDate;
-
+- (void)showTimeLeftToNextYear;
 @end
 
 @implementation IGMainScreenController
@@ -33,15 +34,30 @@
 	// Do any additional setup after loading the view.
     
     //TODO: replace magic string with constant
-    NSDate *birthdate = [[NSUserDefaults standardUserDefaults] objectForKey:KEY_FOR_BIRTHDATE];
+    [self showTimeLeftToNextYear];
+    
+    
+//    IGCircleView *circleView = [[IGCircleView alloc] init];
+    
+    
+    
+//    circleView.center = self.view.center;
+    
+//    [self.view addSubview:circleView];
+    
+//    [circleView release];
 
-    NSDate *nextBirthday = [[NSDate date] nextBirthdayForBirthdate:birthdate];
-    NSLog(@"nextBD: %@", [nextBirthday description]);
-    [self showTimeLeftFrom:[NSDate date] toDate:nextBirthday];
+
+//    [self showTimeLeftFrom:[NSDate date] toDate:nextBirthday];
 }
 
-- (void)showTimeLeftFrom:(NSDate *)fromDate toDate:(NSDate *)toDate {
-    [timeLeftLabel setText:[NSString stringWithFormat:@"%d дней", [fromDate daysToDate:toDate]]];
+- (void)showTimeLeftToNextYear {
+    NSDate *currentDate = [NSDate date];
+    NSDate *nextYear = [currentDate startOfNextYear];
+    
+    
+    
+    [timeLeftLabel setText:[NSString stringWithFormat:@"%d дней", [currentDate daysUntilDate:nextYear]] ];
 }
 
 - (void)viewDidUnload

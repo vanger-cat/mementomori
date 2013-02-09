@@ -19,11 +19,13 @@
 		403B2959161836B600534827 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B2939161836B600534827 /* UIKit.framework */; };
 		403B295A161836B600534827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B293B161836B600534827 /* Foundation.framework */; };
 		403B2962161836B600534827 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 403B2960161836B600534827 /* InfoPlist.strings */; };
-		403B2965161836B600534827 /* mementomoriTests.m in Sources */ = {isa = PBXBuildFile; };
+		403B2965161836B600534827 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		403B297016183C7600534827 /* IGMainScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B296F16183C7600534827 /* IGMainScreenController.m */; };
 		403B297016183C760053482A /* NSDateBirthdayAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B297016183C7600534829 /* NSDateBirthdayAdditionsTest.m */; };
 		403B297016183C760053482D /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B297016183C760053482C /* NSDate+Additions.m */; };
 		403B297016183C760053482E /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B297016183C760053482C /* NSDate+Additions.m */; };
+		B114D0871694A379009B0C0E /* IGCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B114D0861694A379009B0C0E /* IGCircleView.m */; };
+		EAC23C6C6E8D4E89B1AF6240 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFD9ADF20BF4A479F8FD84D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +40,9 @@
 
 /* Begin PBXFileReference section */
 		403B2935161836B600534827 /* mementomori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mementomori.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		403B2939161836B600534827 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		403B293B161836B600534827 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		403B293D161836B600534827 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		403B2939161836B600534827 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		403B293B161836B600534827 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		403B293D161836B600534827 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		403B2941161836B600534827 /* mementomori-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mementomori-Info.plist"; sourceTree = "<group>"; };
 		403B2943161836B600534827 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		403B2945161836B600534827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +62,10 @@
 		403B297016183C7600534829 /* NSDateBirthdayAdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateBirthdayAdditionsTest.m; sourceTree = "<group>"; };
 		403B297016183C760053482C /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Additions.m"; sourceTree = "<group>"; };
 		403B297016183C760053482F /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additions.h"; sourceTree = "<group>"; };
+		60015ADCC4904A55BCED8458 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		AFFD9ADF20BF4A479F8FD84D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B114D0851694A379009B0C0E /* IGCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCircleView.h; sourceTree = "<group>"; };
+		B114D0861694A379009B0C0E /* IGCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 				403B293A161836B600534827 /* UIKit.framework in Frameworks */,
 				403B293C161836B600534827 /* Foundation.framework in Frameworks */,
 				403B293E161836B600534827 /* CoreGraphics.framework in Frameworks */,
+				EAC23C6C6E8D4E89B1AF6240 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +100,7 @@
 				403B295D161836B600534827 /* mementomoriTests */,
 				403B2938161836B600534827 /* Frameworks */,
 				403B2936161836B600534827 /* Products */,
+				60015ADCC4904A55BCED8458 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +120,7 @@
 				403B293B161836B600534827 /* Foundation.framework */,
 				403B293D161836B600534827 /* CoreGraphics.framework */,
 				403B2957161836B600534827 /* SenTestingKit.framework */,
+				AFFD9ADF20BF4A479F8FD84D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,6 +137,8 @@
 				403B296F16183C7600534827 /* IGMainScreenController.m */,
 				403B2940161836B600534827 /* Supporting Files */,
 				403B297016183C760053482B /* Utils */,
+				B114D0851694A379009B0C0E /* IGCircleView.h */,
+				B114D0861694A379009B0C0E /* IGCircleView.m */,
 			);
 			path = mementomori;
 			sourceTree = "<group>";
@@ -181,6 +192,7 @@
 				403B2931161836B600534827 /* Sources */,
 				403B2932161836B600534827 /* Frameworks */,
 				403B2933161836B600534827 /* Resources */,
+				4B1DBA7F5563481094B1A61F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +284,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		4B1DBA7F5563481094B1A61F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -284,6 +310,7 @@
 				403B2950161836B600534827 /* IGViewController.m in Sources */,
 				403B297016183C7600534827 /* IGMainScreenController.m in Sources */,
 				403B297016183C760053482D /* NSDate+Additions.m in Sources */,
+				B114D0871694A379009B0C0E /* IGCircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403B2965161836B600534827 /* mementomoriTests.m in Sources */,
+				403B2965161836B600534827 /* (null) in Sources */,
 				403B297016183C760053482A /* NSDateBirthdayAdditionsTest.m in Sources */,
 				403B297016183C760053482E /* NSDate+Additions.m in Sources */,
 			);
@@ -384,6 +411,7 @@
 		};
 		403B2969161836B600534827 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60015ADCC4904A55BCED8458 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mementomori/mementomori-Prefix.pch";
@@ -395,6 +423,7 @@
 		};
 		403B296A161836B600534827 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60015ADCC4904A55BCED8458 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mementomori/mementomori-Prefix.pch";
@@ -457,6 +486,7 @@
 				403B296A161836B600534827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		403B296B161836B600534827 /* Build configuration list for PBXNativeTarget "mementomoriTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +495,7 @@
 				403B296D161836B600534827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
